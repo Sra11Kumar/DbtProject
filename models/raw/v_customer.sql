@@ -1,7 +1,7 @@
 {{ config(
-    schema= 'STAGE',
+    schema= 'RAW',
     database= 'PC_MATILLION_DB' ,
-    materialized='view'
+   materialized= 'view'
 )}}
 
 SELECT * FROM "PC_MATILLION_DB"."RAW"."CUSTOMER"
